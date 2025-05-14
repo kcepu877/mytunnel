@@ -10,13 +10,13 @@ echo -e "\033[91;1m Note. contoh Subdomain :\033[0m \033[93mbodoh22 \033[0m"
 echo -e " "
 read -p "SUBDOMAIN :  " domen
 echo -e ""
-DOMAIN=zvx.my.id
+DOMAIN=xhamster.biz.id
 sub=${domen}
-dns=${sub}.zvx.my.id
+dns=${sub}.xhamster.biz.id
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.zvx.my.id
-CF_KEY=e03f30d53ad7ec2ab54327baa5e2da5ab44f0
-CF_ID=mezzqueen293@gmail.com
+CF_KEY=7193887554575d68f61e77a321dcffbcb9e58
+CF_ID=kcepu877@gmail.com
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
