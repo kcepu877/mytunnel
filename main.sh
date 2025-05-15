@@ -592,9 +592,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77
+user seaker877@gmail.com
+from seaker877@gmail.com
+password Seaker877@
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
