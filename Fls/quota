@@ -2,7 +2,7 @@
 
 function send-log(){
 CHATID="7109036965"
-KEY="8011173029:AAETtYiqyLMKgTSyNYvKsxJpMbPQC0kcl0E"
+KEY="8185965489:AAF9SbQ0WJV0Ojg9IPNQ9Z389PnJQziCQbg"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="
