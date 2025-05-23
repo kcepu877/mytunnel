@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m                    SAKERA TUNNELING               \033[0m"
+echo -e "\033[96;1m                    RIKZ TUNNELING               \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -75,9 +75,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/kcepu877/list-ip/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/kcepu877/izin/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/kcepu877/list-ip/main/ip | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/kcepu877/izin/main/ip | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
@@ -96,7 +96,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/kcepu877/list-ip/main/ip | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/kcepu877/izin/main/ip | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -263,12 +263,12 @@ fi
 }
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/kcepu877/list-ip/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/kcepu877/list-ip/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/kcepu877/izin/main/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/kcepu877/izin/main/ip | grep $ipsaya | awk '{print $3}')
 TIMEZONE=$(printf '%(%H:%M:%S)T')
 TEXT="
 <code>────────────────────</code>
-<b> 🟢 NOTIFICATIONS INSTALLASI 🟢</b>
+<b> 🟢 NOTIFICATIONS INSTALL 🟢</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -592,9 +592,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user seaker877@gmail.com
-from seaker877@gmail.com
-password Seaker877@
+user oceantestdigital@gmail.com
+from oceantestdigital@gmail.com
+password jokerman77
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
