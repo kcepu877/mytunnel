@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m                    RIKZ TUNNELING               \033[0m"
+echo -e "\033[96;1m                    ZERO TUNNELING               \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
